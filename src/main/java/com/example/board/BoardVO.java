@@ -59,4 +59,14 @@ public class BoardVO {
         public void setCnt(int cnt) {
             this.cnt = cnt;
         }
+        private Long id;
+
+        // Getter and Setter for 'id'
+        public Long getId() {
+            return id;
+        }
+
+        public void setId(Long id) {
+            this.id = id;
+        }
     }
